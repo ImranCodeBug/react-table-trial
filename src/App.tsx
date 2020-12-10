@@ -2,6 +2,7 @@ import * as React from "react";
 import SimpleTable from "./SimpleTable";
 import "./styles.css";
 import TableWithCustomColumn from "./TableWithCustomColumn";
+import TableWithPagination from "./TableWithPagination";
 
 export default function App() {
   return (
@@ -11,7 +12,9 @@ export default function App() {
 
       {/* <SimpleTable /> */}
 
-      <TableWithCustomColumn />
+      {/* <TableWithCustomColumn /> */}
+
+      <TableWithPagination />
     </div>
   );
 }

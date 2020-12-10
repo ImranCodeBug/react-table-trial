@@ -7,7 +7,6 @@ interface ITableCellComponentProps {
 const TableCellComponent: React.FunctionComponent<ITableCellComponentProps> = (
   props
 ) => {
-  console.log(props);
   return props.col1;
 };
 
