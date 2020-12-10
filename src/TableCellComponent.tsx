@@ -1,9 +1,14 @@
-import * as React from 'react'
+import * as React from "react";
 
-const TableCellComponent: React.FunctionComponent = () => {
-  return null;
+interface ITableCellComponentProps {
+  Original: any;
 }
 
+const TableCellComponent: React.FunctionComponent<ITableCellComponentProps> = (
+  props
+) => {
+  console.log(props);
+  return props.col1;
+};
+
 export default TableCellComponent;
-
-
